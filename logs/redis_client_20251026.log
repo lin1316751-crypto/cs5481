@@ -1,0 +1,4 @@
+2025-10-26 08:09:11 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-26 08:09:11 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-26 08:09:11 - redis_client - INFO - ✓ 来源配额启用: {'newsapi': 0.02, 'reddit': 0.75, 'rss': 0.15, 'stocktwits': 0.03, 'twitter': 0.05}
+2025-10-26 08:09:20 - redis_client - INFO - Redis 连接已关闭

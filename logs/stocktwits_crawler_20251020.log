@@ -1,0 +1,78 @@
+2025-10-20 15:27:46 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: 
+2025-10-20 15:42:42 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: 
+2025-10-20 15:45:15 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-20 15:45:15 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 0, 错误: 0
+2025-10-20 15:56:22 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-20 15:59:09 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-20 15:59:09 - stocktwits_crawler - INFO - 正在抓取股票: $SPY
+2025-10-20 15:59:10 - stocktwits_crawler - ERROR - 获取 $SPY 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/SPY.json?limit=30
+2025-10-20 15:59:10 - stocktwits_crawler - INFO - 股票 $SPY 抓取完成，消息数: 0
+2025-10-20 15:59:11 - stocktwits_crawler - INFO - 正在抓取股票: $QQQ
+2025-10-20 15:59:11 - stocktwits_crawler - ERROR - 获取 $QQQ 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/QQQ.json?limit=30
+2025-10-20 15:59:11 - stocktwits_crawler - INFO - 股票 $QQQ 抓取完成，消息数: 0
+2025-10-20 15:59:12 - stocktwits_crawler - INFO - 正在抓取股票: $DIA
+2025-10-20 15:59:12 - stocktwits_crawler - ERROR - 获取 $DIA 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/DIA.json?limit=30
+2025-10-20 15:59:12 - stocktwits_crawler - INFO - 股票 $DIA 抓取完成，消息数: 0
+2025-10-20 15:59:13 - stocktwits_crawler - INFO - 正在抓取股票: $IWM
+2025-10-20 15:59:13 - stocktwits_crawler - ERROR - 获取 $IWM 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/IWM.json?limit=30
+2025-10-20 15:59:13 - stocktwits_crawler - INFO - 股票 $IWM 抓取完成，消息数: 0
+2025-10-20 15:59:14 - stocktwits_crawler - INFO - 正在抓取股票: $XLF
+2025-10-20 15:59:15 - stocktwits_crawler - ERROR - 获取 $XLF 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/XLF.json?limit=30
+2025-10-20 15:59:15 - stocktwits_crawler - INFO - 股票 $XLF 抓取完成，消息数: 0
+2025-10-20 15:59:16 - stocktwits_crawler - INFO - 正在抓取股票: $XLE
+2025-10-20 15:59:16 - stocktwits_crawler - ERROR - 获取 $XLE 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/XLE.json?limit=30
+2025-10-20 15:59:16 - stocktwits_crawler - INFO - 股票 $XLE 抓取完成，消息数: 0
+2025-10-20 15:59:17 - stocktwits_crawler - INFO - 正在抓取股票: $XLK
+2025-10-20 15:59:17 - stocktwits_crawler - ERROR - 获取 $XLK 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/XLK.json?limit=30
+2025-10-20 15:59:17 - stocktwits_crawler - INFO - 股票 $XLK 抓取完成，消息数: 0
+2025-10-20 15:59:18 - stocktwits_crawler - INFO - 正在抓取股票: $BTC.X
+2025-10-20 15:59:18 - stocktwits_crawler - ERROR - 获取 $BTC.X 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/BTC.X.json?limit=30
+2025-10-20 15:59:18 - stocktwits_crawler - INFO - 股票 $BTC.X 抓取完成，消息数: 0
+2025-10-20 15:59:19 - stocktwits_crawler - INFO - 正在抓取股票: $ETH.X
+2025-10-20 15:59:19 - stocktwits_crawler - ERROR - 获取 $ETH.X 消息流失败: 403 Client Error: Forbidden for url: https://api.stocktwits.com/api/2/streams/symbol/ETH.X.json?limit=30
+2025-10-20 15:59:19 - stocktwits_crawler - INFO - 股票 $ETH.X 抓取完成，消息数: 0
+2025-10-20 15:59:20 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 0, 错误: 0
+2025-10-20 16:37:27 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-20 16:37:36 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-20 16:37:37 - stocktwits_crawler - INFO - 正在抓取股票: $SPY
+2025-10-20 16:37:37 - stocktwits_crawler - INFO - 股票 $SPY 抓取完成，消息数: 30
+2025-10-20 16:37:38 - stocktwits_crawler - INFO - 正在抓取股票: $QQQ
+2025-10-20 16:37:39 - stocktwits_crawler - INFO - 股票 $QQQ 抓取完成，消息数: 30
+2025-10-20 16:37:40 - stocktwits_crawler - INFO - 正在抓取股票: $DIA
+2025-10-20 16:37:41 - stocktwits_crawler - INFO - 股票 $DIA 抓取完成，消息数: 30
+2025-10-20 16:37:42 - stocktwits_crawler - INFO - 正在抓取股票: $IWM
+2025-10-20 16:37:43 - stocktwits_crawler - INFO - 股票 $IWM 抓取完成，消息数: 30
+2025-10-20 16:37:44 - stocktwits_crawler - INFO - 正在抓取股票: $XLF
+2025-10-20 16:37:44 - stocktwits_crawler - INFO - 股票 $XLF 抓取完成，消息数: 30
+2025-10-20 16:37:45 - stocktwits_crawler - INFO - 正在抓取股票: $XLE
+2025-10-20 16:37:46 - stocktwits_crawler - INFO - 股票 $XLE 抓取完成，消息数: 30
+2025-10-20 16:37:47 - stocktwits_crawler - INFO - 正在抓取股票: $XLK
+2025-10-20 16:37:48 - stocktwits_crawler - INFO - 股票 $XLK 抓取完成，消息数: 30
+2025-10-20 16:37:49 - stocktwits_crawler - INFO - 正在抓取股票: $BTC.X
+2025-10-20 16:37:49 - stocktwits_crawler - INFO - 股票 $BTC.X 抓取完成，消息数: 30
+2025-10-20 16:37:50 - stocktwits_crawler - INFO - 正在抓取股票: $ETH.X
+2025-10-20 16:37:51 - stocktwits_crawler - INFO - 股票 $ETH.X 抓取完成，消息数: 30
+2025-10-20 16:37:52 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 270, 错误: 0
+2025-10-20 16:46:57 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-20 17:00:47 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-20 17:00:47 - stocktwits_crawler - INFO - 正在抓取股票: $SPY
+2025-10-20 17:00:48 - stocktwits_crawler - INFO - 股票 $SPY 抓取完成，消息数: 30
+2025-10-20 17:00:49 - stocktwits_crawler - INFO - 正在抓取股票: $QQQ
+2025-10-20 17:00:50 - stocktwits_crawler - INFO - 股票 $QQQ 抓取完成，消息数: 30
+2025-10-20 17:00:51 - stocktwits_crawler - INFO - 正在抓取股票: $DIA
+2025-10-20 17:00:52 - stocktwits_crawler - INFO - 股票 $DIA 抓取完成，消息数: 30
+2025-10-20 17:00:53 - stocktwits_crawler - INFO - 正在抓取股票: $IWM
+2025-10-20 17:00:54 - stocktwits_crawler - INFO - 股票 $IWM 抓取完成，消息数: 30
+2025-10-20 17:00:55 - stocktwits_crawler - INFO - 正在抓取股票: $XLF
+2025-10-20 17:00:56 - stocktwits_crawler - INFO - 股票 $XLF 抓取完成，消息数: 30
+2025-10-20 17:00:57 - stocktwits_crawler - INFO - 正在抓取股票: $XLE
+2025-10-20 17:00:58 - stocktwits_crawler - INFO - 股票 $XLE 抓取完成，消息数: 30
+2025-10-20 17:00:59 - stocktwits_crawler - INFO - 正在抓取股票: $XLK
+2025-10-20 17:00:59 - stocktwits_crawler - INFO - 股票 $XLK 抓取完成，消息数: 30
+2025-10-20 17:01:00 - stocktwits_crawler - INFO - 正在抓取股票: $BTC.X
+2025-10-20 17:01:01 - stocktwits_crawler - INFO - 股票 $BTC.X 抓取完成，消息数: 30
+2025-10-20 17:01:02 - stocktwits_crawler - INFO - 正在抓取股票: $ETH.X
+2025-10-20 17:01:03 - stocktwits_crawler - INFO - 股票 $ETH.X 抓取完成，消息数: 30
+2025-10-20 17:01:04 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 270, 错误: 0
+2025-10-20 17:38:04 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-20 17:43:46 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
