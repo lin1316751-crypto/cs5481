@@ -1,0 +1,294 @@
+2025-10-24 18:04:58 - rss_crawler - INFO - RSS 爬虫初始化完成，订阅源数量: 36
+2025-10-24 18:04:58 - rss_crawler - INFO - ✓ 全文抓取已启用 (使用 newspaper3k)
+2025-10-24 18:05:23 - rss_crawler - INFO - 开始抓取 RSS 数据...
+2025-10-24 18:05:23 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Top News
+2025-10-24 18:05:25 - rss_crawler - INFO - RSS 源 CNBC - Top News 抓取完成，文章数: 30
+2025-10-24 18:05:26 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Markets
+2025-10-24 18:05:28 - rss_crawler - INFO - RSS 源 CNBC - Markets 抓取完成，文章数: 30
+2025-10-24 18:05:29 - rss_crawler - INFO - 正在抓取 RSS 源: Financial Times - Global Economy
+2025-10-24 18:05:30 - rss_crawler - INFO - RSS 源 Financial Times - Global Economy 抓取完成，文章数: 25
+2025-10-24 18:05:31 - rss_crawler - INFO - 正在抓取 RSS 源: The Wall Street Journal - Markets
+2025-10-24 18:05:33 - rss_crawler - INFO - RSS 源 The Wall Street Journal - Markets 抓取完成，文章数: 20
+2025-10-24 18:05:34 - rss_crawler - INFO - 正在抓取 RSS 源: MarketWatch - Top Stories
+2025-10-24 18:05:36 - rss_crawler - INFO - RSS 源 MarketWatch - Top Stories 抓取完成，文章数: 10
+2025-10-24 18:05:37 - rss_crawler - INFO - 正在抓取 RSS 源: The Economist - Finance & Economics
+2025-10-24 18:05:38 - rss_crawler - WARNING - RSS 源 The Economist - Finance & Economics 解析失败 (尝试 1/2): document declared as us-ascii, but parsed as utf-8
+2025-10-24 18:05:41 - rss_crawler - WARNING - RSS 源 The Economist - Finance & Economics 解析失败 (尝试 2/2): document declared as us-ascii, but parsed as utf-8
+2025-10-24 18:05:41 - rss_crawler - ERROR - RSS 源 The Economist - Finance & Economics 完全失败，跳过: https://www.economist.com/finance-and-economics/rss.xml
+2025-10-24 18:05:41 - rss_crawler - INFO - 正在抓取 RSS 源: Seeking Alpha - Market News
+2025-10-24 18:05:43 - rss_crawler - INFO - RSS 源 Seeking Alpha - Market News 抓取完成，文章数: 30
+2025-10-24 18:05:44 - rss_crawler - INFO - 正在抓取 RSS 源: Benzinga - News
+2025-10-24 18:05:46 - rss_crawler - INFO - RSS 源 Benzinga - News 抓取完成，文章数: 10
+2025-10-24 18:05:47 - rss_crawler - INFO - 正在抓取 RSS 源: Reuters - Financial News
+2025-10-24 18:05:49 - rss_crawler - WARNING - RSS 源 Reuters - Financial News 解析失败 (尝试 1/2): <unknown>:33:42: not well-formed (invalid token)
+2025-10-24 18:05:52 - rss_crawler - WARNING - RSS 源 Reuters - Financial News 解析失败 (尝试 2/2): <unknown>:33:42: not well-formed (invalid token)
+2025-10-24 18:05:52 - rss_crawler - ERROR - RSS 源 Reuters - Financial News 完全失败，跳过: https://ir.thomsonreuters.com/rss-feeds
+2025-10-24 18:05:52 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Investing & Finance
+2025-10-24 18:05:54 - rss_crawler - INFO - RSS 源 CNBC - Investing & Finance 抓取完成，文章数: 30
+2025-10-24 18:05:55 - rss_crawler - INFO - 正在抓取 RSS 源: Nasdaq - Markets
+2025-10-24 18:06:06 - rss_crawler - WARNING - RSS 源 Nasdaq - Markets 请求超时 (尝试 1/2): 10秒
+2025-10-24 18:06:19 - rss_crawler - WARNING - RSS 源 Nasdaq - Markets 请求超时 (尝试 2/2): 10秒
+2025-10-24 18:06:19 - rss_crawler - ERROR - RSS 源 Nasdaq - Markets 完全失败，跳过: https://www.nasdaq.com/feed/rssoutbound?category=Markets
+2025-10-24 18:06:19 - rss_crawler - INFO - 正在抓取 RSS 源: Financial Times - Emerging Markets
+2025-10-24 18:06:21 - rss_crawler - INFO - RSS 源 Financial Times - Emerging Markets 抓取完成，文章数: 25
+2025-10-24 18:06:22 - rss_crawler - INFO - 正在抓取 RSS 源: IMF - News
+2025-10-24 18:06:37 - rss_crawler - WARNING - RSS 源 IMF - News 解析失败 (尝试 1/2): <unknown>:62:14: not well-formed (invalid token)
+2025-10-24 18:06:51 - rss_crawler - WARNING - RSS 源 IMF - News 解析失败 (尝试 2/2): <unknown>:62:14: not well-formed (invalid token)
+2025-10-24 18:06:51 - rss_crawler - ERROR - RSS 源 IMF - News 完全失败，跳过: https://www.imf.org/external/rss/news.xml
+2025-10-24 18:06:51 - rss_crawler - INFO - 正在抓取 RSS 源: Bank of England - News
+2025-10-24 18:06:53 - rss_crawler - INFO - RSS 源 Bank of England - News 抓取完成，文章数: 50
+2025-10-24 18:06:54 - rss_crawler - INFO - 正在抓取 RSS 源: BNP Paribas Economic Research
+2025-10-24 18:06:57 - rss_crawler - WARNING - RSS 源 BNP Paribas Economic Research 解析失败 (尝试 1/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 18:07:01 - rss_crawler - WARNING - RSS 源 BNP Paribas Economic Research 解析失败 (尝试 2/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 18:07:01 - rss_crawler - ERROR - RSS 源 BNP Paribas Economic Research 完全失败，跳过: https://economic-research.bnpparibas.com/RSS/en-US
+2025-10-24 18:07:01 - rss_crawler - INFO - 正在抓取 RSS 源: CoinDesk - All News
+2025-10-24 18:07:02 - rss_crawler - WARNING - RSS 源 CoinDesk - All News 解析失败 (尝试 1/2): <unknown>:2:0: syntax error
+2025-10-24 18:07:05 - rss_crawler - WARNING - RSS 源 CoinDesk - All News 解析失败 (尝试 2/2): <unknown>:2:0: syntax error
+2025-10-24 18:07:05 - rss_crawler - ERROR - RSS 源 CoinDesk - All News 完全失败，跳过: https://www.coindesk.com/arc/outboundfeeds/rss/
+2025-10-24 18:07:05 - rss_crawler - INFO - 正在抓取 RSS 源: Cointelegraph - News
+2025-10-24 18:07:09 - rss_crawler - INFO - RSS 源 Cointelegraph - News 抓取完成，文章数: 30
+2025-10-24 18:07:10 - rss_crawler - INFO - 正在抓取 RSS 源: Decrypt - News
+2025-10-24 18:07:10 - rss_crawler - INFO - RSS 源 Decrypt - News 抓取完成，文章数: 53
+2025-10-24 18:07:11 - rss_crawler - INFO - 正在抓取 RSS 源: Bitcoin Magazine - News
+2025-10-24 18:07:12 - rss_crawler - WARNING - RSS 源 Bitcoin Magazine - News 解析失败 (尝试 1/2): <unknown>:7:885: not well-formed (invalid token)
+2025-10-24 18:07:15 - rss_crawler - WARNING - RSS 源 Bitcoin Magazine - News 解析失败 (尝试 2/2): <unknown>:7:885: not well-formed (invalid token)
+2025-10-24 18:07:15 - rss_crawler - ERROR - RSS 源 Bitcoin Magazine - News 完全失败，跳过: https://bitcoinmagazine.com/.rss/full/
+2025-10-24 18:07:15 - rss_crawler - INFO - 正在抓取 RSS 源: Messari - Research
+2025-10-24 18:07:16 - rss_crawler - WARNING - RSS 源 Messari - Research 解析失败 (尝试 1/2): <unknown>:2:39: not well-formed (invalid token)
+2025-10-24 18:07:19 - rss_crawler - WARNING - RSS 源 Messari - Research 解析失败 (尝试 2/2): <unknown>:2:39: not well-formed (invalid token)
+2025-10-24 18:07:19 - rss_crawler - ERROR - RSS 源 Messari - Research 完全失败，跳过: https://messari.io/rss
+2025-10-24 18:07:19 - rss_crawler - INFO - 正在抓取 RSS 源: FXStreet - Forex & Crypto
+2025-10-24 18:07:19 - rss_crawler - INFO - RSS 源 FXStreet - Forex & Crypto 抓取完成，文章数: 30
+2025-10-24 18:07:20 - rss_crawler - INFO - 正在抓取 RSS 源: Caixin Blog
+2025-10-24 18:07:21 - rss_crawler - INFO - RSS 源 Caixin Blog 抓取完成，文章数: 0
+2025-10-24 18:07:22 - rss_crawler - INFO - 正在抓取 RSS 源: Wall Street CN (华尔街见闻)
+2025-10-24 18:07:22 - rss_crawler - WARNING - RSS 源 Wall Street CN (华尔街见闻) 解析失败 (尝试 1/2): <unknown>:2:2491: mismatched tag
+2025-10-24 18:07:24 - rss_crawler - WARNING - RSS 源 Wall Street CN (华尔街见闻) 解析失败 (尝试 2/2): <unknown>:2:2491: mismatched tag
+2025-10-24 18:07:24 - rss_crawler - ERROR - RSS 源 Wall Street CN (华尔街见闻) 完全失败，跳过: https://wallstreetcn.com/rss
+2025-10-24 18:07:24 - rss_crawler - INFO - 正在抓取 RSS 源: TechCrunch - Fintech
+2025-10-24 18:07:25 - rss_crawler - INFO - RSS 源 TechCrunch - Fintech 抓取完成，文章数: 20
+2025-10-24 18:07:26 - rss_crawler - INFO - 正在抓取 RSS 源: Wired - Business
+2025-10-24 18:07:27 - rss_crawler - INFO - RSS 源 Wired - Business 抓取完成，文章数: 20
+2025-10-24 18:07:28 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - $TSLA
+2025-10-24 18:07:29 - rss_crawler - INFO - RSS 源 Google News - $TSLA 抓取完成，文章数: 100
+2025-10-24 18:07:30 - rss_crawler - INFO - 正在抓取 RSS 源: Yahoo Finance - TSLA
+2025-10-24 18:07:32 - rss_crawler - INFO - RSS 源 Yahoo Finance - TSLA 抓取完成，文章数: 20
+2025-10-24 18:07:33 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - Finance
+2025-10-24 18:07:35 - rss_crawler - INFO - RSS 源 Google News - Finance 抓取完成，文章数: 100
+2025-10-24 18:07:36 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - Cryptocurrency
+2025-10-24 18:07:37 - rss_crawler - INFO - RSS 源 Google News - Cryptocurrency 抓取完成，文章数: 100
+2025-10-24 18:07:38 - rss_crawler - INFO - 正在抓取 RSS 源: FinanceAsia - Latest
+2025-10-24 18:07:41 - rss_crawler - INFO - RSS 源 FinanceAsia - Latest 抓取完成，文章数: 10
+2025-10-24 18:07:42 - rss_crawler - INFO - 正在抓取 RSS 源: Emergent Economics - Blog
+2025-10-24 18:07:43 - rss_crawler - INFO - RSS 源 Emergent Economics - Blog 抓取完成，文章数: 10
+2025-10-24 18:07:44 - rss_crawler - INFO - 正在抓取 RSS 源: Livemint - Markets (India)
+2025-10-24 18:07:46 - rss_crawler - INFO - RSS 源 Livemint - Markets (India) 抓取完成，文章数: 35
+2025-10-24 18:07:47 - rss_crawler - INFO - 正在抓取 RSS 源: Mizuho Financial Group - News
+2025-10-24 18:07:48 - rss_crawler - INFO - RSS 源 Mizuho Financial Group - News 抓取完成，文章数: 5
+2025-10-24 18:07:49 - rss_crawler - INFO - 正在抓取 RSS 源: Asia Times - Business News
+2025-10-24 18:07:50 - rss_crawler - INFO - RSS 源 Asia Times - Business News 抓取完成，文章数: 20
+2025-10-24 18:07:51 - rss_crawler - INFO - 正在抓取 RSS 源: Opalesque - Global Markets
+2025-10-24 18:07:53 - rss_crawler - WARNING - RSS 源 Opalesque - Global Markets 解析失败 (尝试 1/2): <unknown>:7:2: mismatched tag
+2025-10-24 18:07:56 - rss_crawler - WARNING - RSS 源 Opalesque - Global Markets 解析失败 (尝试 2/2): <unknown>:7:2: mismatched tag
+2025-10-24 18:07:56 - rss_crawler - ERROR - RSS 源 Opalesque - Global Markets 完全失败，跳过: https://www.opalesque.com/rss
+2025-10-24 18:07:56 - rss_crawler - INFO - 正在抓取 RSS 源: BNP Paribas - Regional Economics
+2025-10-24 18:07:59 - rss_crawler - WARNING - RSS 源 BNP Paribas - Regional Economics 解析失败 (尝试 1/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 18:08:03 - rss_crawler - WARNING - RSS 源 BNP Paribas - Regional Economics 解析失败 (尝试 2/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 18:08:03 - rss_crawler - ERROR - RSS 源 BNP Paribas - Regional Economics 完全失败，跳过: https://economic-research.bnpparibas.com/RSS/en-US
+2025-10-24 18:08:03 - rss_crawler - INFO - RSS 抓取完成 - 文章: 813, 错误: 0
+2025-10-24 19:10:28 - rss_crawler - INFO - RSS 爬虫初始化完成，订阅源数量: 36
+2025-10-24 19:10:28 - rss_crawler - INFO - ✓ 全文抓取已启用 (使用 newspaper3k)
+2025-10-24 19:10:52 - rss_crawler - INFO - 开始抓取 RSS 数据...
+2025-10-24 19:10:52 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Top News
+2025-10-24 19:10:54 - rss_crawler - INFO - RSS 源 CNBC - Top News 抓取完成，文章数: 30
+2025-10-24 19:10:55 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Markets
+2025-10-24 19:10:57 - rss_crawler - INFO - RSS 源 CNBC - Markets 抓取完成，文章数: 30
+2025-10-24 19:10:58 - rss_crawler - INFO - 正在抓取 RSS 源: Financial Times - Global Economy
+2025-10-24 19:11:00 - rss_crawler - INFO - RSS 源 Financial Times - Global Economy 抓取完成，文章数: 25
+2025-10-24 19:11:01 - rss_crawler - INFO - 正在抓取 RSS 源: The Wall Street Journal - Markets
+2025-10-24 19:11:03 - rss_crawler - INFO - RSS 源 The Wall Street Journal - Markets 抓取完成，文章数: 20
+2025-10-24 19:11:04 - rss_crawler - INFO - 正在抓取 RSS 源: MarketWatch - Top Stories
+2025-10-24 19:11:07 - rss_crawler - INFO - RSS 源 MarketWatch - Top Stories 抓取完成，文章数: 10
+2025-10-24 19:11:08 - rss_crawler - INFO - 正在抓取 RSS 源: The Economist - Finance & Economics
+2025-10-24 19:11:09 - rss_crawler - WARNING - RSS 源 The Economist - Finance & Economics 解析失败 (尝试 1/2): document declared as us-ascii, but parsed as utf-8
+2025-10-24 19:11:12 - rss_crawler - WARNING - RSS 源 The Economist - Finance & Economics 解析失败 (尝试 2/2): document declared as us-ascii, but parsed as utf-8
+2025-10-24 19:11:12 - rss_crawler - ERROR - RSS 源 The Economist - Finance & Economics 完全失败，跳过: https://www.economist.com/finance-and-economics/rss.xml
+2025-10-24 19:11:12 - rss_crawler - INFO - 正在抓取 RSS 源: Seeking Alpha - Market News
+2025-10-24 19:11:14 - rss_crawler - INFO - RSS 源 Seeking Alpha - Market News 抓取完成，文章数: 30
+2025-10-24 19:11:15 - rss_crawler - INFO - 正在抓取 RSS 源: Benzinga - News
+2025-10-24 19:11:16 - rss_crawler - INFO - RSS 源 Benzinga - News 抓取完成，文章数: 10
+2025-10-24 19:11:17 - rss_crawler - INFO - 正在抓取 RSS 源: Reuters - Financial News
+2025-10-24 19:11:19 - rss_crawler - WARNING - RSS 源 Reuters - Financial News 解析失败 (尝试 1/2): <unknown>:33:42: not well-formed (invalid token)
+2025-10-24 19:11:23 - rss_crawler - WARNING - RSS 源 Reuters - Financial News 解析失败 (尝试 2/2): <unknown>:33:42: not well-formed (invalid token)
+2025-10-24 19:11:23 - rss_crawler - ERROR - RSS 源 Reuters - Financial News 完全失败，跳过: https://ir.thomsonreuters.com/rss-feeds
+2025-10-24 19:11:23 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Investing & Finance
+2025-10-24 19:11:25 - rss_crawler - INFO - RSS 源 CNBC - Investing & Finance 抓取完成，文章数: 30
+2025-10-24 19:11:26 - rss_crawler - INFO - 正在抓取 RSS 源: Nasdaq - Markets
+2025-10-24 19:11:37 - rss_crawler - WARNING - RSS 源 Nasdaq - Markets 请求超时 (尝试 1/2): 10秒
+2025-10-24 19:11:50 - rss_crawler - WARNING - RSS 源 Nasdaq - Markets 请求超时 (尝试 2/2): 10秒
+2025-10-24 19:11:50 - rss_crawler - ERROR - RSS 源 Nasdaq - Markets 完全失败，跳过: https://www.nasdaq.com/feed/rssoutbound?category=Markets
+2025-10-24 19:11:50 - rss_crawler - INFO - 正在抓取 RSS 源: Financial Times - Emerging Markets
+2025-10-24 19:11:52 - rss_crawler - INFO - RSS 源 Financial Times - Emerging Markets 抓取完成，文章数: 25
+2025-10-24 19:11:53 - rss_crawler - INFO - 正在抓取 RSS 源: IMF - News
+2025-10-24 19:12:08 - rss_crawler - WARNING - RSS 源 IMF - News 解析失败 (尝试 1/2): <unknown>:62:14: not well-formed (invalid token)
+2025-10-24 19:12:24 - rss_crawler - WARNING - RSS 源 IMF - News 解析失败 (尝试 2/2): <unknown>:62:14: not well-formed (invalid token)
+2025-10-24 19:12:24 - rss_crawler - ERROR - RSS 源 IMF - News 完全失败，跳过: https://www.imf.org/external/rss/news.xml
+2025-10-24 19:12:24 - rss_crawler - INFO - 正在抓取 RSS 源: Bank of England - News
+2025-10-24 19:12:26 - rss_crawler - INFO - RSS 源 Bank of England - News 抓取完成，文章数: 50
+2025-10-24 19:12:27 - rss_crawler - INFO - 正在抓取 RSS 源: BNP Paribas Economic Research
+2025-10-24 19:12:30 - rss_crawler - WARNING - RSS 源 BNP Paribas Economic Research 解析失败 (尝试 1/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 19:12:37 - rss_crawler - WARNING - RSS 源 BNP Paribas Economic Research 解析失败 (尝试 2/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 19:12:37 - rss_crawler - ERROR - RSS 源 BNP Paribas Economic Research 完全失败，跳过: https://economic-research.bnpparibas.com/RSS/en-US
+2025-10-24 19:12:37 - rss_crawler - INFO - 正在抓取 RSS 源: CoinDesk - All News
+2025-10-24 19:12:37 - rss_crawler - WARNING - RSS 源 CoinDesk - All News 解析失败 (尝试 1/2): <unknown>:2:0: syntax error
+2025-10-24 19:12:40 - rss_crawler - WARNING - RSS 源 CoinDesk - All News 解析失败 (尝试 2/2): <unknown>:2:0: syntax error
+2025-10-24 19:12:40 - rss_crawler - ERROR - RSS 源 CoinDesk - All News 完全失败，跳过: https://www.coindesk.com/arc/outboundfeeds/rss/
+2025-10-24 19:12:40 - rss_crawler - INFO - 正在抓取 RSS 源: Cointelegraph - News
+2025-10-24 19:12:41 - rss_crawler - INFO - RSS 源 Cointelegraph - News 抓取完成，文章数: 30
+2025-10-24 19:12:42 - rss_crawler - INFO - 正在抓取 RSS 源: Decrypt - News
+2025-10-24 19:12:43 - rss_crawler - INFO - RSS 源 Decrypt - News 抓取完成，文章数: 52
+2025-10-24 19:12:44 - rss_crawler - INFO - 正在抓取 RSS 源: Bitcoin Magazine - News
+2025-10-24 19:12:44 - rss_crawler - WARNING - RSS 源 Bitcoin Magazine - News 解析失败 (尝试 1/2): <unknown>:7:885: not well-formed (invalid token)
+2025-10-24 19:12:47 - rss_crawler - WARNING - RSS 源 Bitcoin Magazine - News 解析失败 (尝试 2/2): <unknown>:7:885: not well-formed (invalid token)
+2025-10-24 19:12:47 - rss_crawler - ERROR - RSS 源 Bitcoin Magazine - News 完全失败，跳过: https://bitcoinmagazine.com/.rss/full/
+2025-10-24 19:12:47 - rss_crawler - INFO - 正在抓取 RSS 源: Messari - Research
+2025-10-24 19:12:48 - rss_crawler - WARNING - RSS 源 Messari - Research 解析失败 (尝试 1/2): <unknown>:2:39: not well-formed (invalid token)
+2025-10-24 19:12:51 - rss_crawler - WARNING - RSS 源 Messari - Research 解析失败 (尝试 2/2): <unknown>:2:39: not well-formed (invalid token)
+2025-10-24 19:12:51 - rss_crawler - ERROR - RSS 源 Messari - Research 完全失败，跳过: https://messari.io/rss
+2025-10-24 19:12:51 - rss_crawler - INFO - 正在抓取 RSS 源: FXStreet - Forex & Crypto
+2025-10-24 19:12:52 - rss_crawler - INFO - RSS 源 FXStreet - Forex & Crypto 抓取完成，文章数: 30
+2025-10-24 19:12:53 - rss_crawler - INFO - 正在抓取 RSS 源: Caixin Blog
+2025-10-24 19:12:53 - rss_crawler - INFO - RSS 源 Caixin Blog 抓取完成，文章数: 0
+2025-10-24 19:12:54 - rss_crawler - INFO - 正在抓取 RSS 源: Wall Street CN (华尔街见闻)
+2025-10-24 19:13:05 - rss_crawler - WARNING - RSS 源 Wall Street CN (华尔街见闻) 请求超时 (尝试 1/2): 10秒
+2025-10-24 19:13:17 - rss_crawler - WARNING - RSS 源 Wall Street CN (华尔街见闻) 请求超时 (尝试 2/2): 10秒
+2025-10-24 19:13:17 - rss_crawler - ERROR - RSS 源 Wall Street CN (华尔街见闻) 完全失败，跳过: https://wallstreetcn.com/rss
+2025-10-24 19:13:17 - rss_crawler - INFO - 正在抓取 RSS 源: TechCrunch - Fintech
+2025-10-24 19:13:18 - rss_crawler - INFO - RSS 源 TechCrunch - Fintech 抓取完成，文章数: 20
+2025-10-24 19:13:19 - rss_crawler - INFO - 正在抓取 RSS 源: Wired - Business
+2025-10-24 19:13:19 - rss_crawler - INFO - RSS 源 Wired - Business 抓取完成，文章数: 20
+2025-10-24 19:13:20 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - $TSLA
+2025-10-24 19:13:22 - rss_crawler - INFO - RSS 源 Google News - $TSLA 抓取完成，文章数: 100
+2025-10-24 19:13:23 - rss_crawler - INFO - 正在抓取 RSS 源: Yahoo Finance - TSLA
+2025-10-24 19:13:24 - rss_crawler - INFO - RSS 源 Yahoo Finance - TSLA 抓取完成，文章数: 20
+2025-10-24 19:13:25 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - Finance
+2025-10-24 19:13:27 - rss_crawler - INFO - RSS 源 Google News - Finance 抓取完成，文章数: 100
+2025-10-24 19:13:28 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - Cryptocurrency
+2025-10-24 19:13:29 - rss_crawler - INFO - RSS 源 Google News - Cryptocurrency 抓取完成，文章数: 100
+2025-10-24 19:13:30 - rss_crawler - INFO - 正在抓取 RSS 源: FinanceAsia - Latest
+2025-10-24 19:13:32 - rss_crawler - INFO - RSS 源 FinanceAsia - Latest 抓取完成，文章数: 10
+2025-10-24 19:13:33 - rss_crawler - INFO - 正在抓取 RSS 源: Emergent Economics - Blog
+2025-10-24 19:13:34 - rss_crawler - INFO - RSS 源 Emergent Economics - Blog 抓取完成，文章数: 10
+2025-10-24 19:13:35 - rss_crawler - INFO - 正在抓取 RSS 源: Livemint - Markets (India)
+2025-10-24 19:13:37 - rss_crawler - INFO - RSS 源 Livemint - Markets (India) 抓取完成，文章数: 35
+2025-10-24 19:13:38 - rss_crawler - INFO - 正在抓取 RSS 源: Mizuho Financial Group - News
+2025-10-24 19:13:40 - rss_crawler - INFO - RSS 源 Mizuho Financial Group - News 抓取完成，文章数: 5
+2025-10-24 19:13:41 - rss_crawler - INFO - 正在抓取 RSS 源: Asia Times - Business News
+2025-10-24 19:13:42 - rss_crawler - INFO - RSS 源 Asia Times - Business News 抓取完成，文章数: 20
+2025-10-24 19:13:43 - rss_crawler - INFO - 正在抓取 RSS 源: Opalesque - Global Markets
+2025-10-24 19:13:45 - rss_crawler - WARNING - RSS 源 Opalesque - Global Markets 解析失败 (尝试 1/2): <unknown>:7:2: mismatched tag
+2025-10-24 19:13:48 - rss_crawler - WARNING - RSS 源 Opalesque - Global Markets 解析失败 (尝试 2/2): <unknown>:7:2: mismatched tag
+2025-10-24 19:13:48 - rss_crawler - ERROR - RSS 源 Opalesque - Global Markets 完全失败，跳过: https://www.opalesque.com/rss
+2025-10-24 19:13:48 - rss_crawler - INFO - 正在抓取 RSS 源: BNP Paribas - Regional Economics
+2025-10-24 19:13:51 - rss_crawler - WARNING - RSS 源 BNP Paribas - Regional Economics 解析失败 (尝试 1/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 19:13:56 - rss_crawler - WARNING - RSS 源 BNP Paribas - Regional Economics 解析失败 (尝试 2/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 19:13:56 - rss_crawler - ERROR - RSS 源 BNP Paribas - Regional Economics 完全失败，跳过: https://economic-research.bnpparibas.com/RSS/en-US
+2025-10-24 19:13:56 - rss_crawler - INFO - RSS 抓取完成 - 文章: 812, 错误: 0
+2025-10-24 20:53:42 - rss_crawler - INFO - RSS 爬虫初始化完成，订阅源数量: 36
+2025-10-24 20:53:42 - rss_crawler - INFO - ✓ 全文抓取已启用 (使用 newspaper3k)
+2025-10-24 20:54:06 - rss_crawler - INFO - 开始抓取 RSS 数据...
+2025-10-24 20:54:06 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Top News
+2025-10-24 20:54:09 - rss_crawler - INFO - RSS 源 CNBC - Top News 抓取完成，文章数: 30
+2025-10-24 20:54:10 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Markets
+2025-10-24 20:54:11 - rss_crawler - INFO - RSS 源 CNBC - Markets 抓取完成，文章数: 30
+2025-10-24 20:54:13 - rss_crawler - INFO - 正在抓取 RSS 源: Financial Times - Global Economy
+2025-10-24 20:54:14 - rss_crawler - INFO - RSS 源 Financial Times - Global Economy 抓取完成，文章数: 25
+2025-10-24 20:54:15 - rss_crawler - INFO - 正在抓取 RSS 源: The Wall Street Journal - Markets
+2025-10-24 20:54:16 - rss_crawler - INFO - RSS 源 The Wall Street Journal - Markets 抓取完成，文章数: 20
+2025-10-24 20:54:17 - rss_crawler - INFO - 正在抓取 RSS 源: MarketWatch - Top Stories
+2025-10-24 20:54:20 - rss_crawler - INFO - RSS 源 MarketWatch - Top Stories 抓取完成，文章数: 10
+2025-10-24 20:54:21 - rss_crawler - INFO - 正在抓取 RSS 源: The Economist - Finance & Economics
+2025-10-24 20:54:22 - rss_crawler - WARNING - RSS 源 The Economist - Finance & Economics 解析失败 (尝试 1/2): document declared as us-ascii, but parsed as utf-8
+2025-10-24 20:54:25 - rss_crawler - WARNING - RSS 源 The Economist - Finance & Economics 解析失败 (尝试 2/2): document declared as us-ascii, but parsed as utf-8
+2025-10-24 20:54:25 - rss_crawler - ERROR - RSS 源 The Economist - Finance & Economics 完全失败，跳过: https://www.economist.com/finance-and-economics/rss.xml
+2025-10-24 20:54:25 - rss_crawler - INFO - 正在抓取 RSS 源: Seeking Alpha - Market News
+2025-10-24 20:54:27 - rss_crawler - INFO - RSS 源 Seeking Alpha - Market News 抓取完成，文章数: 30
+2025-10-24 20:54:28 - rss_crawler - INFO - 正在抓取 RSS 源: Benzinga - News
+2025-10-24 20:54:30 - rss_crawler - INFO - RSS 源 Benzinga - News 抓取完成，文章数: 10
+2025-10-24 20:54:31 - rss_crawler - INFO - 正在抓取 RSS 源: Reuters - Financial News
+2025-10-24 20:54:33 - rss_crawler - WARNING - RSS 源 Reuters - Financial News 解析失败 (尝试 1/2): <unknown>:33:42: not well-formed (invalid token)
+2025-10-24 20:54:37 - rss_crawler - WARNING - RSS 源 Reuters - Financial News 解析失败 (尝试 2/2): <unknown>:33:42: not well-formed (invalid token)
+2025-10-24 20:54:37 - rss_crawler - ERROR - RSS 源 Reuters - Financial News 完全失败，跳过: https://ir.thomsonreuters.com/rss-feeds
+2025-10-24 20:54:37 - rss_crawler - INFO - 正在抓取 RSS 源: CNBC - Investing & Finance
+2025-10-24 20:54:39 - rss_crawler - INFO - RSS 源 CNBC - Investing & Finance 抓取完成，文章数: 30
+2025-10-24 20:54:40 - rss_crawler - INFO - 正在抓取 RSS 源: Nasdaq - Markets
+2025-10-24 20:54:51 - rss_crawler - WARNING - RSS 源 Nasdaq - Markets 请求超时 (尝试 1/2): 10秒
+2025-10-24 20:55:04 - rss_crawler - WARNING - RSS 源 Nasdaq - Markets 请求超时 (尝试 2/2): 10秒
+2025-10-24 20:55:04 - rss_crawler - ERROR - RSS 源 Nasdaq - Markets 完全失败，跳过: https://www.nasdaq.com/feed/rssoutbound?category=Markets
+2025-10-24 20:55:04 - rss_crawler - INFO - 正在抓取 RSS 源: Financial Times - Emerging Markets
+2025-10-24 20:55:06 - rss_crawler - INFO - RSS 源 Financial Times - Emerging Markets 抓取完成，文章数: 25
+2025-10-24 20:55:07 - rss_crawler - INFO - 正在抓取 RSS 源: IMF - News
+2025-10-24 20:55:22 - rss_crawler - WARNING - RSS 源 IMF - News 解析失败 (尝试 1/2): <unknown>:62:14: not well-formed (invalid token)
+2025-10-24 20:55:38 - rss_crawler - WARNING - RSS 源 IMF - News 解析失败 (尝试 2/2): <unknown>:62:14: not well-formed (invalid token)
+2025-10-24 20:55:38 - rss_crawler - ERROR - RSS 源 IMF - News 完全失败，跳过: https://www.imf.org/external/rss/news.xml
+2025-10-24 20:55:38 - rss_crawler - INFO - 正在抓取 RSS 源: Bank of England - News
+2025-10-24 20:55:40 - rss_crawler - INFO - RSS 源 Bank of England - News 抓取完成，文章数: 50
+2025-10-24 20:55:41 - rss_crawler - INFO - 正在抓取 RSS 源: BNP Paribas Economic Research
+2025-10-24 20:55:45 - rss_crawler - WARNING - RSS 源 BNP Paribas Economic Research 解析失败 (尝试 1/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 20:55:49 - rss_crawler - WARNING - RSS 源 BNP Paribas Economic Research 解析失败 (尝试 2/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 20:55:49 - rss_crawler - ERROR - RSS 源 BNP Paribas Economic Research 完全失败，跳过: https://economic-research.bnpparibas.com/RSS/en-US
+2025-10-24 20:55:49 - rss_crawler - INFO - 正在抓取 RSS 源: CoinDesk - All News
+2025-10-24 20:55:50 - rss_crawler - WARNING - RSS 源 CoinDesk - All News 解析失败 (尝试 1/2): <unknown>:2:0: syntax error
+2025-10-24 20:55:52 - rss_crawler - WARNING - RSS 源 CoinDesk - All News 解析失败 (尝试 2/2): <unknown>:2:0: syntax error
+2025-10-24 20:55:52 - rss_crawler - ERROR - RSS 源 CoinDesk - All News 完全失败，跳过: https://www.coindesk.com/arc/outboundfeeds/rss/
+2025-10-24 20:55:52 - rss_crawler - INFO - 正在抓取 RSS 源: Cointelegraph - News
+2025-10-24 20:55:53 - rss_crawler - INFO - RSS 源 Cointelegraph - News 抓取完成，文章数: 30
+2025-10-24 20:55:54 - rss_crawler - INFO - 正在抓取 RSS 源: Decrypt - News
+2025-10-24 20:55:55 - rss_crawler - INFO - RSS 源 Decrypt - News 抓取完成，文章数: 52
+2025-10-24 20:55:56 - rss_crawler - INFO - 正在抓取 RSS 源: Bitcoin Magazine - News
+2025-10-24 20:55:57 - rss_crawler - WARNING - RSS 源 Bitcoin Magazine - News 解析失败 (尝试 1/2): <unknown>:7:885: not well-formed (invalid token)
+2025-10-24 20:56:00 - rss_crawler - WARNING - RSS 源 Bitcoin Magazine - News 解析失败 (尝试 2/2): <unknown>:7:885: not well-formed (invalid token)
+2025-10-24 20:56:00 - rss_crawler - ERROR - RSS 源 Bitcoin Magazine - News 完全失败，跳过: https://bitcoinmagazine.com/.rss/full/
+2025-10-24 20:56:00 - rss_crawler - INFO - 正在抓取 RSS 源: Messari - Research
+2025-10-24 20:56:00 - rss_crawler - WARNING - RSS 源 Messari - Research 解析失败 (尝试 1/2): <unknown>:2:39: not well-formed (invalid token)
+2025-10-24 20:56:03 - rss_crawler - WARNING - RSS 源 Messari - Research 解析失败 (尝试 2/2): <unknown>:2:39: not well-formed (invalid token)
+2025-10-24 20:56:03 - rss_crawler - ERROR - RSS 源 Messari - Research 完全失败，跳过: https://messari.io/rss
+2025-10-24 20:56:03 - rss_crawler - INFO - 正在抓取 RSS 源: FXStreet - Forex & Crypto
+2025-10-24 20:56:04 - rss_crawler - INFO - RSS 源 FXStreet - Forex & Crypto 抓取完成，文章数: 30
+2025-10-24 20:56:05 - rss_crawler - INFO - 正在抓取 RSS 源: Caixin Blog
+2025-10-24 20:56:05 - rss_crawler - INFO - RSS 源 Caixin Blog 抓取完成，文章数: 0
+2025-10-24 20:56:06 - rss_crawler - INFO - 正在抓取 RSS 源: Wall Street CN (华尔街见闻)
+2025-10-24 20:56:07 - rss_crawler - WARNING - RSS 源 Wall Street CN (华尔街见闻) 解析失败 (尝试 1/2): <unknown>:2:2491: mismatched tag
+2025-10-24 20:56:19 - rss_crawler - WARNING - RSS 源 Wall Street CN (华尔街见闻) 请求超时 (尝试 2/2): 10秒
+2025-10-24 20:56:19 - rss_crawler - ERROR - RSS 源 Wall Street CN (华尔街见闻) 完全失败，跳过: https://wallstreetcn.com/rss
+2025-10-24 20:56:19 - rss_crawler - INFO - 正在抓取 RSS 源: TechCrunch - Fintech
+2025-10-24 20:56:20 - rss_crawler - INFO - RSS 源 TechCrunch - Fintech 抓取完成，文章数: 20
+2025-10-24 20:56:21 - rss_crawler - INFO - 正在抓取 RSS 源: Wired - Business
+2025-10-24 20:56:21 - rss_crawler - INFO - RSS 源 Wired - Business 抓取完成，文章数: 20
+2025-10-24 20:56:22 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - $TSLA
+2025-10-24 20:56:24 - rss_crawler - INFO - RSS 源 Google News - $TSLA 抓取完成，文章数: 100
+2025-10-24 20:56:25 - rss_crawler - INFO - 正在抓取 RSS 源: Yahoo Finance - TSLA
+2025-10-24 20:56:26 - rss_crawler - INFO - RSS 源 Yahoo Finance - TSLA 抓取完成，文章数: 20
+2025-10-24 20:56:27 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - Finance
+2025-10-24 20:56:29 - rss_crawler - INFO - RSS 源 Google News - Finance 抓取完成，文章数: 100
+2025-10-24 20:56:30 - rss_crawler - INFO - 正在抓取 RSS 源: Google News - Cryptocurrency
+2025-10-24 20:56:31 - rss_crawler - INFO - RSS 源 Google News - Cryptocurrency 抓取完成，文章数: 100
+2025-10-24 20:56:32 - rss_crawler - INFO - 正在抓取 RSS 源: FinanceAsia - Latest
+2025-10-24 20:56:33 - rss_crawler - INFO - RSS 源 FinanceAsia - Latest 抓取完成，文章数: 10
+2025-10-24 20:56:34 - rss_crawler - INFO - 正在抓取 RSS 源: Emergent Economics - Blog
+2025-10-24 20:56:35 - rss_crawler - INFO - RSS 源 Emergent Economics - Blog 抓取完成，文章数: 10
+2025-10-24 20:56:36 - rss_crawler - INFO - 正在抓取 RSS 源: Livemint - Markets (India)
+2025-10-24 20:56:40 - rss_crawler - INFO - RSS 源 Livemint - Markets (India) 抓取完成，文章数: 35
+2025-10-24 20:56:41 - rss_crawler - INFO - 正在抓取 RSS 源: Mizuho Financial Group - News
+2025-10-24 20:56:42 - rss_crawler - INFO - RSS 源 Mizuho Financial Group - News 抓取完成，文章数: 5
+2025-10-24 20:56:43 - rss_crawler - INFO - 正在抓取 RSS 源: Asia Times - Business News
+2025-10-24 20:56:44 - rss_crawler - INFO - RSS 源 Asia Times - Business News 抓取完成，文章数: 20
+2025-10-24 20:56:45 - rss_crawler - INFO - 正在抓取 RSS 源: Opalesque - Global Markets
+2025-10-24 20:56:47 - rss_crawler - WARNING - RSS 源 Opalesque - Global Markets 解析失败 (尝试 1/2): <unknown>:7:2: mismatched tag
+2025-10-24 20:56:50 - rss_crawler - WARNING - RSS 源 Opalesque - Global Markets 解析失败 (尝试 2/2): <unknown>:7:2: mismatched tag
+2025-10-24 20:56:50 - rss_crawler - ERROR - RSS 源 Opalesque - Global Markets 完全失败，跳过: https://www.opalesque.com/rss
+2025-10-24 20:56:50 - rss_crawler - INFO - 正在抓取 RSS 源: BNP Paribas - Regional Economics
+2025-10-24 20:56:53 - rss_crawler - WARNING - RSS 源 BNP Paribas - Regional Economics 解析失败 (尝试 1/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 20:56:57 - rss_crawler - WARNING - RSS 源 BNP Paribas - Regional Economics 解析失败 (尝试 2/2): <unknown>:51:67: not well-formed (invalid token)
+2025-10-24 20:56:57 - rss_crawler - ERROR - RSS 源 BNP Paribas - Regional Economics 完全失败，跳过: https://economic-research.bnpparibas.com/RSS/en-US
+2025-10-24 20:56:57 - rss_crawler - INFO - RSS 抓取完成 - 文章: 812, 错误: 0

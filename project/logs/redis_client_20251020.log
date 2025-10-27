@@ -1,0 +1,67 @@
+2025-10-20 14:41:46 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 最大保留: 1000条
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.5, 'twitter': 0.3}
+2025-10-20 14:41:46 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:41:46 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 最大保留: 1000条
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.5}
+2025-10-20 14:41:46 - redis_client - WARNING - ⚠️  来源 reddit 已超过配额，丢弃新数据以保护总量（soft limit）
+2025-10-20 14:41:46 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:41:46 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:41:46 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:41:46 - redis_client - INFO - 来源计数重建完成：扫描 5 条，来源数 3
+2025-10-20 14:52:51 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 最大保留: 1000条
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.5, 'twitter': 0.3}
+2025-10-20 14:52:51 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:52:51 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 最大保留: 1000条
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.5}
+2025-10-20 14:52:51 - redis_client - WARNING - ⚠️  来源 reddit 已超过配额，丢弃新数据以保护总量（soft limit）
+2025-10-20 14:52:51 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:52:51 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:52:51 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:52:51 - redis_client - INFO - 来源计数重建完成：扫描 5 条，来源数 3
+2025-10-20 14:56:49 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 最大保留: 1000条
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.5, 'twitter': 0.3}
+2025-10-20 14:56:49 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:56:49 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 最大保留: 1000条
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.5}
+2025-10-20 14:56:49 - redis_client - WARNING - ⚠️  来源 reddit 已超过配额，丢弃新数据以保护总量（soft limit）
+2025-10-20 14:56:49 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:56:49 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 14:56:49 - redis_client - INFO - ✓ 最大保留: 10000条
+2025-10-20 14:56:49 - redis_client - INFO - 来源计数重建完成：扫描 5 条，来源数 3
+2025-10-20 15:27:45 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 15:27:45 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 15:27:45 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.75, 'rss': 0.15, 'newsapi': 0.02, 'twitter': 0.05, 'stocktwits': 0.03}
+2025-10-20 15:42:42 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 15:42:42 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 15:42:42 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.75, 'rss': 0.15, 'newsapi': 0.02, 'twitter': 0.05, 'stocktwits': 0.03}
+2025-10-20 15:46:23 - redis_client - INFO - Redis 连接已关闭
+2025-10-20 15:56:22 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 15:56:22 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 15:56:22 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.75, 'rss': 0.15, 'newsapi': 0.02, 'twitter': 0.05, 'stocktwits': 0.03}
+2025-10-20 16:00:25 - redis_client - INFO - Redis 连接已关闭
+2025-10-20 16:37:27 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 16:37:27 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 16:37:27 - redis_client - INFO - ✓ 来源配额启用: {'reddit': 0.75, 'rss': 0.15, 'newsapi': 0.02, 'twitter': 0.05, 'stocktwits': 0.03}
+2025-10-20 16:37:54 - redis_client - INFO - Redis 连接已关闭
+2025-10-20 16:46:57 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 16:46:57 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 16:46:57 - redis_client - INFO - ✓ 来源配额启用: {'newsapi': 0.02, 'reddit': 0.75, 'rss': 0.15, 'stocktwits': 0.03, 'twitter': 0.05}
+2025-10-20 17:01:11 - redis_client - INFO - Redis 连接已关闭
+2025-10-20 17:38:04 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 17:38:04 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 17:38:04 - redis_client - INFO - ✓ 来源配额启用: {'newsapi': 0.02, 'reddit': 0.75, 'rss': 0.15, 'stocktwits': 0.03, 'twitter': 0.05}
+2025-10-20 17:43:45 - redis_client - INFO - Redis 连接成功: localhost:6379/0
+2025-10-20 17:43:45 - redis_client - INFO - ✓ 最大保留: 500000条
+2025-10-20 17:43:45 - redis_client - INFO - ✓ 来源配额启用: {'newsapi': 0.02, 'reddit': 0.75, 'rss': 0.15, 'stocktwits': 0.03, 'twitter': 0.05}

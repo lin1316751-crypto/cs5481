@@ -1,0 +1,119 @@
+2025-10-24 18:04:58 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-24 18:08:03 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-24 19:10:28 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-24 19:13:56 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-24 19:13:56 - stocktwits_crawler - INFO - 正在抓取股票: $SPY
+2025-10-24 19:13:57 - stocktwits_crawler - ERROR - $SPY API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:13:57 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:13:57 - stocktwits_crawler - INFO - ✓ 股票 $SPY 抓取完成 - 消息: 0
+2025-10-24 19:13:58 - stocktwits_crawler - INFO - 正在抓取股票: $QQQ
+2025-10-24 19:13:58 - stocktwits_crawler - ERROR - $QQQ API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:13:58 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:13:58 - stocktwits_crawler - INFO - ✓ 股票 $QQQ 抓取完成 - 消息: 0
+2025-10-24 19:13:59 - stocktwits_crawler - INFO - 正在抓取股票: $DIA
+2025-10-24 19:14:00 - stocktwits_crawler - ERROR - $DIA API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:00 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:00 - stocktwits_crawler - INFO - ✓ 股票 $DIA 抓取完成 - 消息: 0
+2025-10-24 19:14:01 - stocktwits_crawler - INFO - 正在抓取股票: $IWM
+2025-10-24 19:14:01 - stocktwits_crawler - ERROR - $IWM API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:01 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:01 - stocktwits_crawler - INFO - ✓ 股票 $IWM 抓取完成 - 消息: 0
+2025-10-24 19:14:02 - stocktwits_crawler - INFO - 正在抓取股票: $XLF
+2025-10-24 19:14:03 - stocktwits_crawler - ERROR - $XLF API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:03 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:03 - stocktwits_crawler - INFO - ✓ 股票 $XLF 抓取完成 - 消息: 0
+2025-10-24 19:14:04 - stocktwits_crawler - INFO - 正在抓取股票: $XLE
+2025-10-24 19:14:04 - stocktwits_crawler - ERROR - $XLE API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:04 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:04 - stocktwits_crawler - INFO - ✓ 股票 $XLE 抓取完成 - 消息: 0
+2025-10-24 19:14:05 - stocktwits_crawler - INFO - 正在抓取股票: $XLK
+2025-10-24 19:14:06 - stocktwits_crawler - ERROR - $XLK API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:06 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:06 - stocktwits_crawler - INFO - ✓ 股票 $XLK 抓取完成 - 消息: 0
+2025-10-24 19:14:07 - stocktwits_crawler - INFO - 正在抓取股票: $BTC.X
+2025-10-24 19:14:07 - stocktwits_crawler - ERROR - $BTC.X API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:07 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:07 - stocktwits_crawler - INFO - ✓ 股票 $BTC.X 抓取完成 - 消息: 0
+2025-10-24 19:14:08 - stocktwits_crawler - INFO - 正在抓取股票: $ETH.X
+2025-10-24 19:14:09 - stocktwits_crawler - ERROR - $ETH.X API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 19:14:09 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 19:14:09 - stocktwits_crawler - INFO - ✓ 股票 $ETH.X 抓取完成 - 消息: 0
+2025-10-24 19:14:10 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 0, 错误: 0
+2025-10-24 20:53:42 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-24 20:56:57 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-24 20:56:57 - stocktwits_crawler - INFO - 正在抓取股票: $SPY
+2025-10-24 20:56:57 - stocktwits_crawler - ERROR - $SPY API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:56:57 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:56:57 - stocktwits_crawler - INFO - ✓ 股票 $SPY 抓取完成 - 消息: 0
+2025-10-24 20:56:58 - stocktwits_crawler - INFO - 正在抓取股票: $QQQ
+2025-10-24 20:56:59 - stocktwits_crawler - ERROR - $QQQ API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:56:59 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:56:59 - stocktwits_crawler - INFO - ✓ 股票 $QQQ 抓取完成 - 消息: 0
+2025-10-24 20:57:00 - stocktwits_crawler - INFO - 正在抓取股票: $DIA
+2025-10-24 20:57:00 - stocktwits_crawler - ERROR - $DIA API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:00 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:00 - stocktwits_crawler - INFO - ✓ 股票 $DIA 抓取完成 - 消息: 0
+2025-10-24 20:57:01 - stocktwits_crawler - INFO - 正在抓取股票: $IWM
+2025-10-24 20:57:02 - stocktwits_crawler - ERROR - $IWM API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:02 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:02 - stocktwits_crawler - INFO - ✓ 股票 $IWM 抓取完成 - 消息: 0
+2025-10-24 20:57:03 - stocktwits_crawler - INFO - 正在抓取股票: $XLF
+2025-10-24 20:57:03 - stocktwits_crawler - ERROR - $XLF API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:03 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:03 - stocktwits_crawler - INFO - ✓ 股票 $XLF 抓取完成 - 消息: 0
+2025-10-24 20:57:04 - stocktwits_crawler - INFO - 正在抓取股票: $XLE
+2025-10-24 20:57:05 - stocktwits_crawler - ERROR - $XLE API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:05 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:05 - stocktwits_crawler - INFO - ✓ 股票 $XLE 抓取完成 - 消息: 0
+2025-10-24 20:57:06 - stocktwits_crawler - INFO - 正在抓取股票: $XLK
+2025-10-24 20:57:06 - stocktwits_crawler - ERROR - $XLK API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:06 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:06 - stocktwits_crawler - INFO - ✓ 股票 $XLK 抓取完成 - 消息: 0
+2025-10-24 20:57:07 - stocktwits_crawler - INFO - 正在抓取股票: $BTC.X
+2025-10-24 20:57:08 - stocktwits_crawler - ERROR - $BTC.X API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:08 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:08 - stocktwits_crawler - INFO - ✓ 股票 $BTC.X 抓取完成 - 消息: 0
+2025-10-24 20:57:09 - stocktwits_crawler - INFO - 正在抓取股票: $ETH.X
+2025-10-24 20:57:09 - stocktwits_crawler - ERROR - $ETH.X API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 20:57:09 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 20:57:09 - stocktwits_crawler - INFO - ✓ 股票 $ETH.X 抓取完成 - 消息: 0
+2025-10-24 20:57:10 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 0, 错误: 0
+2025-10-24 20:57:51 - stocktwits_crawler - INFO - StockTwits 爬虫初始化成功，监控股票: SPY, QQQ, DIA, IWM, XLF, XLE, XLK, BTC.X, ETH.X
+2025-10-24 21:03:46 - stocktwits_crawler - INFO - 开始抓取 StockTwits 数据...
+2025-10-24 21:03:46 - stocktwits_crawler - INFO - 正在抓取股票: $SPY
+2025-10-24 21:03:46 - stocktwits_crawler - ERROR - $SPY API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:46 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:46 - stocktwits_crawler - INFO - ✓ 股票 $SPY 抓取完成 - 消息: 0
+2025-10-24 21:03:47 - stocktwits_crawler - INFO - 正在抓取股票: $QQQ
+2025-10-24 21:03:48 - stocktwits_crawler - ERROR - $QQQ API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:48 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:48 - stocktwits_crawler - INFO - ✓ 股票 $QQQ 抓取完成 - 消息: 0
+2025-10-24 21:03:49 - stocktwits_crawler - INFO - 正在抓取股票: $DIA
+2025-10-24 21:03:49 - stocktwits_crawler - ERROR - $DIA API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:49 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:49 - stocktwits_crawler - INFO - ✓ 股票 $DIA 抓取完成 - 消息: 0
+2025-10-24 21:03:50 - stocktwits_crawler - INFO - 正在抓取股票: $IWM
+2025-10-24 21:03:51 - stocktwits_crawler - ERROR - $IWM API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:51 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:51 - stocktwits_crawler - INFO - ✓ 股票 $IWM 抓取完成 - 消息: 0
+2025-10-24 21:03:52 - stocktwits_crawler - INFO - 正在抓取股票: $XLF
+2025-10-24 21:03:52 - stocktwits_crawler - ERROR - $XLF API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:52 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:52 - stocktwits_crawler - INFO - ✓ 股票 $XLF 抓取完成 - 消息: 0
+2025-10-24 21:03:53 - stocktwits_crawler - INFO - 正在抓取股票: $XLE
+2025-10-24 21:03:54 - stocktwits_crawler - ERROR - $XLE API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:54 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:54 - stocktwits_crawler - INFO - ✓ 股票 $XLE 抓取完成 - 消息: 0
+2025-10-24 21:03:55 - stocktwits_crawler - INFO - 正在抓取股票: $XLK
+2025-10-24 21:03:55 - stocktwits_crawler - ERROR - $XLK API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:55 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:55 - stocktwits_crawler - INFO - ✓ 股票 $XLK 抓取完成 - 消息: 0
+2025-10-24 21:03:56 - stocktwits_crawler - INFO - 正在抓取股票: $BTC.X
+2025-10-24 21:03:56 - stocktwits_crawler - ERROR - $BTC.X API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:56 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:56 - stocktwits_crawler - INFO - ✓ 股票 $BTC.X 抓取完成 - 消息: 0
+2025-10-24 21:03:57 - stocktwits_crawler - INFO - 正在抓取股票: $ETH.X
+2025-10-24 21:03:58 - stocktwits_crawler - ERROR - $ETH.X API 访问被拒绝 (403) - StockTwits 可能需要 API Token
+2025-10-24 21:03:58 - stocktwits_crawler - INFO - 建议: 访问 https://stocktwits.com/developers 注册 API Token
+2025-10-24 21:03:58 - stocktwits_crawler - INFO - ✓ 股票 $ETH.X 抓取完成 - 消息: 0
+2025-10-24 21:03:59 - stocktwits_crawler - INFO - StockTwits 抓取完成 - 消息: 0, 错误: 0

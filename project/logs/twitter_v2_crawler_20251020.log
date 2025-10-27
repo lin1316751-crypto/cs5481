@@ -1,0 +1,97 @@
+2025-10-20 16:37:27 - twitter_v2_crawler - INFO - ✓ Twitter API v2 初始化成功
+2025-10-20 16:37:27 - twitter_v2_crawler - INFO - 限制: 3 条/次, 100 条/月
+2025-10-20 16:37:52 - twitter_v2_crawler - INFO - ✓ 月度计数器重置 (上次: None)
+2025-10-20 16:37:52 - twitter_v2_crawler - INFO - ✓ 月度配额检查通过: 剩余 100/100
+2025-10-20 16:37:52 - twitter_v2_crawler - INFO - 开始抓取 Twitter 数据...
+2025-10-20 16:37:52 - twitter_v2_crawler - INFO - 关键词: $SPY, $QQQ, Federal Reserve
+2025-10-20 16:37:52 - twitter_v2_crawler - INFO - 正在搜索: $SPY
+2025-10-20 16:37:53 - twitter_v2_crawler - ERROR - HTTP 错误: 400 Client Error: Bad Request for url: https://api.twitter.com/2/tweets/search/recent?query=%24SPY&max_results=1&tweet.fields=created_at%2Cpublic_metrics%2Cauthor_id%2Clang%2Centities&expansions=author_id&user.fields=username%2Cname%2Cverified%2Cpublic_metrics
+2025-10-20 16:37:53 - twitter_v2_crawler - WARNING - 关键词 $SPY 未找到推文
+2025-10-20 16:37:53 - twitter_v2_crawler - INFO - 正在搜索: $QQQ
+2025-10-20 16:37:53 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 16:37:53 - twitter_v2_crawler - WARNING - 关键词 $QQQ 未找到推文
+2025-10-20 16:37:53 - twitter_v2_crawler - INFO - 正在搜索: Federal Reserve
+2025-10-20 16:37:54 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 16:37:54 - twitter_v2_crawler - WARNING - 关键词 Federal Reserve 未找到推文
+2025-10-20 16:37:54 - twitter_v2_crawler - INFO - ✓ 配额已更新: 0 → 0
+2025-10-20 16:37:54 - twitter_v2_crawler - INFO - Twitter 抓取完成 - 推文: 0, 错误: 0
+2025-10-20 16:37:54 - twitter_v2_crawler - INFO - 本次使用: 0 条, 本月累计: 0 条
+2025-10-20 16:46:57 - twitter_v2_crawler - INFO - ✓ Twitter API v2 初始化成功
+2025-10-20 16:46:57 - twitter_v2_crawler - INFO - 限制: 3 条/次, 100 条/月
+2025-10-20 17:01:04 - twitter_v2_crawler - INFO - ✓ 月度配额检查通过: 剩余 100/100
+2025-10-20 17:01:04 - twitter_v2_crawler - INFO - 开始抓取 Twitter 数据...
+2025-10-20 17:01:04 - twitter_v2_crawler - INFO - 关键词: $AAPL, $TSLA, $NVDA, $MSFT, $AMZN, $SPY, $QQQ, $BTC, $ETH, #StockMarket, #Earnings, #Fed, #Bitcoin, #Crypto, #Trading, #Recession, #Inflation, stock crash, stock surge, breaking market, IPO
+2025-10-20 17:01:04 - twitter_v2_crawler - INFO - 正在搜索: $AAPL
+2025-10-20 17:01:04 - twitter_v2_crawler - ERROR - HTTP 错误: 400 Client Error: Bad Request for url: https://api.twitter.com/2/tweets/search/recent?query=%24AAPL&max_results=1&tweet.fields=created_at%2Cpublic_metrics%2Cauthor_id%2Clang%2Centities&expansions=author_id&user.fields=username%2Cname%2Cverified%2Cpublic_metrics
+2025-10-20 17:01:04 - twitter_v2_crawler - WARNING - 关键词 $AAPL 未找到推文
+2025-10-20 17:01:04 - twitter_v2_crawler - INFO - 正在搜索: $TSLA
+2025-10-20 17:01:04 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:04 - twitter_v2_crawler - WARNING - 关键词 $TSLA 未找到推文
+2025-10-20 17:01:04 - twitter_v2_crawler - INFO - 正在搜索: $NVDA
+2025-10-20 17:01:05 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:05 - twitter_v2_crawler - WARNING - 关键词 $NVDA 未找到推文
+2025-10-20 17:01:05 - twitter_v2_crawler - INFO - 正在搜索: $MSFT
+2025-10-20 17:01:05 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:05 - twitter_v2_crawler - WARNING - 关键词 $MSFT 未找到推文
+2025-10-20 17:01:05 - twitter_v2_crawler - INFO - 正在搜索: $AMZN
+2025-10-20 17:01:05 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:05 - twitter_v2_crawler - WARNING - 关键词 $AMZN 未找到推文
+2025-10-20 17:01:05 - twitter_v2_crawler - INFO - 正在搜索: $SPY
+2025-10-20 17:01:06 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:06 - twitter_v2_crawler - WARNING - 关键词 $SPY 未找到推文
+2025-10-20 17:01:06 - twitter_v2_crawler - INFO - 正在搜索: $QQQ
+2025-10-20 17:01:06 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:06 - twitter_v2_crawler - WARNING - 关键词 $QQQ 未找到推文
+2025-10-20 17:01:06 - twitter_v2_crawler - INFO - 正在搜索: $BTC
+2025-10-20 17:01:06 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:06 - twitter_v2_crawler - WARNING - 关键词 $BTC 未找到推文
+2025-10-20 17:01:06 - twitter_v2_crawler - INFO - 正在搜索: $ETH
+2025-10-20 17:01:07 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:07 - twitter_v2_crawler - WARNING - 关键词 $ETH 未找到推文
+2025-10-20 17:01:07 - twitter_v2_crawler - INFO - 正在搜索: #StockMarket
+2025-10-20 17:01:07 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:07 - twitter_v2_crawler - WARNING - 关键词 #StockMarket 未找到推文
+2025-10-20 17:01:07 - twitter_v2_crawler - INFO - 正在搜索: #Earnings
+2025-10-20 17:01:07 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:07 - twitter_v2_crawler - WARNING - 关键词 #Earnings 未找到推文
+2025-10-20 17:01:07 - twitter_v2_crawler - INFO - 正在搜索: #Fed
+2025-10-20 17:01:08 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:08 - twitter_v2_crawler - WARNING - 关键词 #Fed 未找到推文
+2025-10-20 17:01:08 - twitter_v2_crawler - INFO - 正在搜索: #Bitcoin
+2025-10-20 17:01:08 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:08 - twitter_v2_crawler - WARNING - 关键词 #Bitcoin 未找到推文
+2025-10-20 17:01:08 - twitter_v2_crawler - INFO - 正在搜索: #Crypto
+2025-10-20 17:01:08 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:08 - twitter_v2_crawler - WARNING - 关键词 #Crypto 未找到推文
+2025-10-20 17:01:08 - twitter_v2_crawler - INFO - 正在搜索: #Trading
+2025-10-20 17:01:09 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:09 - twitter_v2_crawler - WARNING - 关键词 #Trading 未找到推文
+2025-10-20 17:01:09 - twitter_v2_crawler - INFO - 正在搜索: #Recession
+2025-10-20 17:01:09 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:09 - twitter_v2_crawler - WARNING - 关键词 #Recession 未找到推文
+2025-10-20 17:01:09 - twitter_v2_crawler - INFO - 正在搜索: #Inflation
+2025-10-20 17:01:10 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:10 - twitter_v2_crawler - WARNING - 关键词 #Inflation 未找到推文
+2025-10-20 17:01:10 - twitter_v2_crawler - INFO - 正在搜索: stock crash
+2025-10-20 17:01:10 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:10 - twitter_v2_crawler - WARNING - 关键词 stock crash 未找到推文
+2025-10-20 17:01:10 - twitter_v2_crawler - INFO - 正在搜索: stock surge
+2025-10-20 17:01:10 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:10 - twitter_v2_crawler - WARNING - 关键词 stock surge 未找到推文
+2025-10-20 17:01:10 - twitter_v2_crawler - INFO - 正在搜索: breaking market
+2025-10-20 17:01:11 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:11 - twitter_v2_crawler - WARNING - 关键词 breaking market 未找到推文
+2025-10-20 17:01:11 - twitter_v2_crawler - INFO - 正在搜索: IPO
+2025-10-20 17:01:11 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 请等待后重试
+2025-10-20 17:01:11 - twitter_v2_crawler - WARNING - 关键词 IPO 未找到推文
+2025-10-20 17:01:11 - twitter_v2_crawler - INFO - ✓ 配额已更新: 0 → 0
+2025-10-20 17:01:11 - twitter_v2_crawler - INFO - Twitter 抓取完成 - 推文: 0, 错误: 0
+2025-10-20 17:01:11 - twitter_v2_crawler - INFO - 本次使用: 0 条, 本月累计: 0 条
+2025-10-20 17:38:05 - twitter_v2_crawler - INFO - ✓ Bearer Token 验证成功
+2025-10-20 17:38:05 - twitter_v2_crawler - INFO - ✓ Twitter API v2 初始化成功
+2025-10-20 17:38:05 - twitter_v2_crawler - INFO - 限制: 5 条/次, 100 条/月
+2025-10-20 17:38:05 - twitter_v2_crawler - WARNING - ⚠️ Twitter Free 套餐速率限制极严格 (15分钟窗口),建议降低抓取频率
+2025-10-20 17:43:46 - twitter_v2_crawler - WARNING - ⚠️ 速率限制,但 Token 可能有效
+2025-10-20 17:43:46 - twitter_v2_crawler - INFO - ✓ Twitter API v2 初始化成功
+2025-10-20 17:43:46 - twitter_v2_crawler - INFO - 限制: 5 条/次, 100 条/月
+2025-10-20 17:43:46 - twitter_v2_crawler - WARNING - ⚠️ Twitter Free 套餐速率限制极严格 (15分钟窗口),建议降低抓取频率

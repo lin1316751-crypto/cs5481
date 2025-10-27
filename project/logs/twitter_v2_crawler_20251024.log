@@ -1,0 +1,38 @@
+2025-10-24 18:04:59 - twitter_v2_crawler - INFO - ✓ Bearer Token 验证成功
+2025-10-24 18:04:59 - twitter_v2_crawler - INFO - ✓ Twitter API v2 初始化成功
+2025-10-24 18:04:59 - twitter_v2_crawler - INFO - 限制: 5 条/次, 100 条/月
+2025-10-24 18:04:59 - twitter_v2_crawler - WARNING - ⚠️ Twitter Free 套餐速率限制极严格 (15分钟窗口),建议降低抓取频率
+2025-10-24 18:08:03 - twitter_v2_crawler - INFO - ✓ 月度配额检查通过: 剩余 100/100
+2025-10-24 18:08:03 - twitter_v2_crawler - INFO - 开始抓取 Twitter 数据...
+2025-10-24 18:08:03 - twitter_v2_crawler - INFO - 关键词: $AAPL, $TSLA, $SPY, #Bitcoin, #Fed, breaking market, IPO
+2025-10-24 18:08:03 - twitter_v2_crawler - INFO - 正在搜索: $AAPL
+2025-10-24 18:08:04 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761301198
+2025-10-24 18:08:04 - twitter_v2_crawler - WARNING - ⏳ 等待 718 秒后重试...
+2025-10-24 18:20:03 - twitter_v2_crawler - WARNING - 关键词 $AAPL 未找到推文
+2025-10-24 18:20:03 - twitter_v2_crawler - INFO - 正在搜索: $TSLA
+2025-10-24 18:20:04 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761302103
+2025-10-24 18:20:04 - twitter_v2_crawler - ERROR - ⏳ 需要等待 15 分钟,跳过
+2025-10-24 18:20:04 - twitter_v2_crawler - WARNING - 关键词 $TSLA 未找到推文
+2025-10-24 18:20:04 - twitter_v2_crawler - INFO - 正在搜索: $SPY
+2025-10-24 18:20:04 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761302103
+2025-10-24 18:20:04 - twitter_v2_crawler - ERROR - ⏳ 需要等待 15 分钟,跳过
+2025-10-24 18:20:04 - twitter_v2_crawler - WARNING - 关键词 $SPY 未找到推文
+2025-10-24 18:20:04 - twitter_v2_crawler - INFO - 正在搜索: #Bitcoin
+2025-10-24 18:20:05 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761302103
+2025-10-24 18:20:05 - twitter_v2_crawler - ERROR - ⏳ 需要等待 15 分钟,跳过
+2025-10-24 18:20:05 - twitter_v2_crawler - WARNING - 关键词 #Bitcoin 未找到推文
+2025-10-24 18:20:05 - twitter_v2_crawler - INFO - 正在搜索: #Fed
+2025-10-24 18:20:06 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761302103
+2025-10-24 18:20:06 - twitter_v2_crawler - ERROR - ⏳ 需要等待 15 分钟,跳过
+2025-10-24 18:20:06 - twitter_v2_crawler - WARNING - 关键词 #Fed 未找到推文
+2025-10-24 18:20:06 - twitter_v2_crawler - INFO - 正在搜索: breaking market
+2025-10-24 18:20:06 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761302103
+2025-10-24 18:20:06 - twitter_v2_crawler - ERROR - ⏳ 需要等待 15 分钟,跳过
+2025-10-24 18:20:06 - twitter_v2_crawler - WARNING - 关键词 breaking market 未找到推文
+2025-10-24 18:20:06 - twitter_v2_crawler - INFO - 正在搜索: IPO
+2025-10-24 18:20:07 - twitter_v2_crawler - ERROR - ❌ API 速率限制! 剩余请求: 0, 重置时间: 1761302103
+2025-10-24 18:20:07 - twitter_v2_crawler - ERROR - ⏳ 需要等待 15 分钟,跳过
+2025-10-24 18:20:07 - twitter_v2_crawler - WARNING - 关键词 IPO 未找到推文
+2025-10-24 18:20:07 - twitter_v2_crawler - INFO - ✓ 配额已更新: 0 → 0
+2025-10-24 18:20:07 - twitter_v2_crawler - INFO - Twitter 抓取完成 - 推文: 0, 错误: 0
+2025-10-24 18:20:07 - twitter_v2_crawler - INFO - 本次使用: 0 条, 本月累计: 0 条
