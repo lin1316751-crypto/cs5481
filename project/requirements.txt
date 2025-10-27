@@ -1,0 +1,38 @@
+# Reddit 抓取
+praw==7.7.1
+prawcore==2.4.0
+
+# RSS 解析
+feedparser==6.0.11
+
+# NewsAPI 抓取（推荐）
+newsapi-python==0.2.7
+
+# Twitter 抓取（智能回退：snscrape -> twint-fork）
+snscrape==0.7.0.20230622  # 优先使用
+# twint-fork 版本更新,使用最新稳定版
+# twint-fork>=2.1.22        # 备用方案(可选)
+
+# StockTwits 抓取(无需 API,直接 HTTP)
+requests==2.31.0
+
+# Redis
+redis==5.0.1
+
+# 配置文件
+PyYAML==6.0.1
+
+# 调度
+schedule==1.2.0
+
+# 工具
+python-dateutil==2.8.2
+
+# 导出(可选:Parquet 支持) - 使用预编译版本避免构建错误
+pandas
+pyarrow>=14.0.0
+
+# 测试依赖(开发环境可选)
+pytest==8.2.2
+pytest-cov==5.0.0
+pytest-mock==3.14.0

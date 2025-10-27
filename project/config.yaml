@@ -1,0 +1,261 @@
+crawler_control:
+  loop_interval: 3600
+data_management:
+  archive:
+    compress: true
+    enabled: true
+    format: parquet
+    retention_days: 90
+  auto_export:
+    enabled: true
+    memory_threshold_mb: 900
+    queue_threshold: 1000
+    time_interval_minutes: 1440
+  export_dir: data_exports
+logging:
+  backup_count: 5
+  level: INFO
+  log_dir: logs
+  max_log_size_mb: 100
+newsapi:
+  api_key: 00b4d0f09e164c47a1511a4e33c90385
+  articles_per_keyword: 25
+  enabled: false
+  query_keywords:
+  - '"Apple Inc" AND (iPhone OR earnings OR stock)'
+  - '"Tesla" AND (electric vehicle OR Elon Musk OR stock)'
+  - '"Nvidia" AND (AI OR chip OR semiconductor)'
+  - '"Google" AND (Alphabet OR earnings OR stock)'
+  - '"Meta" AND (Facebook OR earnings OR stock)'
+  - '"Dow Jones" OR "DJIA"'
+  - '"Nasdaq" OR "NASDAQ 100"'
+  - '"S&P 500" OR "SPX"'
+  - '"Federal Reserve" OR "interest rates" OR "Fed meeting"'
+  - '"inflation" AND (CPI OR economy OR rising)'
+  - '"Bitcoin" AND (crypto OR cryptocurrency OR BTC)'
+  - '"Ethereum" AND (crypto OR ETH OR blockchain)'
+  - '"earnings report" OR "quarterly earnings"'
+  - '"IPO" OR "initial public offering"'
+  - '"merger" OR "acquisition" OR "M&A"'
+  - '"stock market crash" OR "market volatility"'
+  - '"oil prices" OR "crude oil" OR "energy"'
+  - '"gold prices" OR "precious metals"'
+  rate_limits:
+    current_day_requests: 5
+    last_reset_date: '2025-10-27'
+    max_requests_per_day: 100
+    requests_per_run: 5
+  sources: []
+reddit:
+  client_id: w5wC_cZ1ecdMML8ksYug5Q
+  client_secret: qsCVvxt8X0RP6K3UIL7VSH6s6aS90w
+  comments_limit: 30
+  enabled: false
+  posts_limit: 50
+  subreddits:
+  - investing
+  - finance
+  - stocks
+  - wallstreetbets
+  - StockMarket
+  user_agent: FinanceDataCrawler/1.0
+redis:
+  db: 0
+  host: localhost
+  password: null
+  port: 6379
+  queue_name: data_queue
+  source_quotas:
+    newsapi: 0.02
+    reddit: 0.75
+    rss: 0.15
+    stocktwits: 0.03
+    twitter: 0.05
+  storage_optimization:
+    data_ttl: null
+    enabled: true
+    max_keep: 500000
+    slim_mode: false
+rss:
+  enabled: false
+  feeds:
+  - category: international
+    name: CNBC - Top News
+    url: https://www.cnbc.com/id/100003114/device/rss/rss.html
+  - category: international
+    name: CNBC - Markets
+    url: https://www.cnbc.com/id/19854910/device/rss/rss.html
+  - category: international
+    name: Financial Times - Global Economy
+    url: https://www.ft.com/global-economy?format=rss
+  - category: international
+    name: The Wall Street Journal - Markets
+    url: https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+  - category: international
+    name: MarketWatch - Top Stories
+    url: http://feeds.marketwatch.com/marketwatch/topstories/
+  - category: international
+    name: The Economist - Finance & Economics
+    url: https://www.economist.com/finance-and-economics/rss.xml
+  - category: international
+    name: Seeking Alpha - Market News
+    url: https://seekingalpha.com/feed
+  - category: international
+    name: Benzinga - News
+    url: https://www.benzinga.com/feed
+  - category: international
+    name: Reuters - Financial News
+    url: https://ir.thomsonreuters.com/rss-feeds
+  - category: international
+    name: CNBC - Investing & Finance
+    url: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664
+  - category: international
+    name: Nasdaq - Markets
+    url: https://www.nasdaq.com/feed/rssoutbound?category=Markets
+  - category: international
+    name: Financial Times - Emerging Markets
+    url: https://www.ft.com/emerging-markets?format=rss
+  - category: macro_economy
+    name: IMF - News
+    url: https://www.imf.org/external/rss/news.xml
+  - category: macro_economy
+    name: Bank of England - News
+    url: https://www.bankofengland.co.uk/rss/news
+  - category: macro_economy
+    name: BNP Paribas Economic Research
+    url: https://economic-research.bnpparibas.com/RSS/en-US
+  - category: crypto
+    name: CoinDesk - All News
+    url: https://www.coindesk.com/arc/outboundfeeds/rss/
+  - category: crypto
+    name: Cointelegraph - News
+    url: https://cointelegraph.com/rss
+  - category: crypto
+    name: Decrypt - News
+    url: https://decrypt.co/feed
+  - category: crypto
+    name: Bitcoin Magazine - News
+    url: https://bitcoinmagazine.com/.rss/full/
+  - category: crypto
+    name: Messari - Research
+    url: https://messari.io/rss
+  - category: crypto
+    name: FXStreet - Forex & Crypto
+    url: https://www.fxstreet.com/rss
+  - category: china
+    name: Caixin Blog
+    url: http://blog.caixin.com/feed
+  - category: china
+    name: Wall Street CN (华尔街见闻)
+    url: https://wallstreetcn.com/rss
+  - category: tech_fintech
+    name: TechCrunch - Fintech
+    url: https://techcrunch.com/category/fintech/feed/
+  - category: tech_fintech
+    name: Wired - Business
+    url: https://www.wired.com/feed/category/business/latest/rss
+  - category: aggregators
+    name: Google News - $TSLA
+    url: https://news.google.com/rss/search?q=%24TSLA&hl=en-US&gl=US&ceid=US:en
+  - category: aggregators
+    name: Yahoo Finance - TSLA
+    url: https://finance.yahoo.com/rss/headline?s=TSLA
+  - category: aggregators
+    name: Google News - Finance
+    url: https://news.google.com/rss/search?q=finance+OR+stock+OR+market&hl=en-US&gl=US&ceid=US:en
+  - category: aggregators
+    name: Google News - Cryptocurrency
+    url: https://news.google.com/rss/search?q=cryptocurrency+OR+bitcoin+OR+crypto&hl=en-US&gl=US&ceid=US:en
+  - category: emerging_markets
+    name: FinanceAsia - Latest
+    url: https://www.financeasia.com/rss/latest
+  - category: emerging_markets
+    name: Emergent Economics - Blog
+    url: https://emergenteconomics.com/feed/
+  - category: emerging_markets
+    name: Livemint - Markets (India)
+    url: https://www.livemint.com/rss/markets
+  - category: emerging_markets
+    name: Mizuho Financial Group - News
+    url: https://rss2.www.mizuho-fg.co.jp/rss?site=AQ83RXG5&item=9
+  - category: emerging_markets
+    name: Asia Times - Business News
+    url: https://asiatimes.com/feed/
+  - category: emerging_markets
+    name: Opalesque - Global Markets
+    url: https://www.opalesque.com/rss
+  - category: emerging_markets
+    name: BNP Paribas - Regional Economics
+    url: https://economic-research.bnpparibas.com/RSS/en-US
+  fetch_full_content: true
+scheduler:
+  export_interval: 360
+  reddit_interval: 60
+  newsapi_interval: 720
+  rss_interval: 30
+  stocktwits_interval: 60
+  twitter_interval: 2880
+  alphavantage_interval: 1440
+stocktwits:
+  access_token: null
+  enabled: false
+  messages_per_symbol: 30
+  watch_symbols:
+  - SPY
+  - QQQ
+  - DIA
+  - IWM
+  - XLF
+  - XLE
+  - XLK
+  - BTC.X
+  - ETH.X
+twitter:
+  access_token: YOUR_ACCESS_TOKEN
+  access_token_secret: YOUR_ACCESS_TOKEN_SECRET
+  accounts: []
+  api_key: YOUR_API_KEY
+  api_secret: YOUR_API_SECRET
+  api_version: v2
+  bearer_token: AAAAAAAAAAAAAAAAAAAAACW04wEAAAAANHIfFeKteE20Q84hZX4qEq641pU%3Dzlpw1374qk7cmlmUp5qe1x615GEK6lypqD19rhfIiCWXMD2BIe
+  enable_account_crawling: false
+  enabled: false
+  keywords:
+  - $AAPL
+  - $TSLA
+  - $SPY
+  - '#Bitcoin'
+  - '#Fed'
+  - breaking market
+  - IPO
+  rate_limits:
+    current_month_posts: 0
+    current_month_writes: 0
+    last_reset_date: '2025-10-24'
+    max_posts_per_month: 100
+    max_posts_per_run: 5
+    max_writes_per_month: 500
+  tweets_per_keyword: 1
+alphavantage:
+  enabled: true
+  api_key: 4HICKZR7VJVLCY71
+  symbols:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - TSLA
+  - META
+  - NVDA
+  - JPM
+  - V
+  - WMT
+  data_types:
+  - quote
+  - news
+  rate_limits:
+    max_requests_per_day: 25
+    requests_per_run: 5
+    delay_between_requests: 12
+    current_day_requests: 20
+    last_reset_date: '2025-10-27'
