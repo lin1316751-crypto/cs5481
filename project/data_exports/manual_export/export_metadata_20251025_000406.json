@@ -1,0 +1,13 @@
+{
+  "export_time": "2025-10-25T00:04:06.693459",
+  "total_records": 7281,
+  "source_distribution": {
+    "reddit_comment": 4594,
+    "reddit_post": 250,
+    "rss": 2437
+  },
+  "files": {
+    "json": "data_exports/manual_export\\redis_export_20251025_000406.json",
+    "jsonl": "data_exports/manual_export\\redis_export_20251025_000406.jsonl"
+  }
+}
